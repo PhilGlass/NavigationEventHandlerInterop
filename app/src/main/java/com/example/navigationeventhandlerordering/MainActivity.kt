@@ -13,7 +13,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            if (false) { // Change to false to demo a parent NavigationEventHandler
+            if (true) { // Change to false to demo a parent NavigationEventHandler
                 BackHandler {
                     // ❌ This takes precedence over the nested NavigationEventHandler.
                     toast("Parent BackHandler called")
